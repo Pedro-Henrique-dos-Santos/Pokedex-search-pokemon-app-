@@ -31,4 +31,4 @@ const GlobalStyled = createGlobalStyle`
     }
 `;
 
-export {GlobalStyled}
+export { GlobalStyled };

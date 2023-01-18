@@ -34,5 +34,26 @@ const Li = styled.li`
   background-color: #de71fe;
 `;
 
+//input
 
-export {H1,Div,Ul,Li}
+const Button = styled.button`
+  display: block;
+  width: 108px;
+  height: 28px;
+  font-size: 1.4rem;
+  margin-top: 18px;
+  border-radius: 4px;
+  border: none;
+`;
+
+const Input = styled.input`
+  width: 128px;
+  height: 28px;
+  line-height: 26px;
+  padding: 6px;
+  border: none;
+  font-size: 1.3rem;
+  outline: none;
+`;
+
+export {H1,Div,Ul,Li,Button,Input}

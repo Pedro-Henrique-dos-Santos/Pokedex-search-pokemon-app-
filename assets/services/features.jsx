@@ -1,16 +1,17 @@
 import { getPokemon } from "./data-pokemon";
-const getPokemonName = async () => {
-  const response = await getPokemon();
+
+const getPokemonName = async (pokemonName = 'charizard') => {
+  const response = await getPokemon(pokemonName);
   return await response.name;
 };
 
-const getPokemonSprite = async () => {
-  const response = await getPokemon();
+const getPokemonSprite = async (pokemonName = 'charizard') => {
+  const response = await getPokemon(pokemonName);
   return await response.sprites.front_default;
 };
 
-const getPokemonType = async () => {
-  const response = await getPokemon();
+const getPokemonType = async (pokemonName = 'charizard') => {
+  const response = await getPokemon(pokemonName);
   return await response.types;
 };
 
